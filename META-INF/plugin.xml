@@ -22,5 +22,6 @@
     <extensions defaultExtensionNs="com.intellij">
         <!-- Add your extensions here -->
         <fileTypeFactory implementation="idea.plugin.jmeter.JMeterFileTypeFactory"/>
+        <syntaxHighlighter key="JMeter" implementationClass="com.intellij.ide.highlighter.XmlFileHighlighter"/>
     </extensions>
 </idea-plugin>
